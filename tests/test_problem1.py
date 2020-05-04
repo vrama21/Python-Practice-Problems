@@ -1,5 +1,5 @@
 import unittest
-from Easy.Problem1.math import *
+from Easy.Problem1.problem1 import *
 
 class Test(unittest.TestCase):
     def test_add(self):

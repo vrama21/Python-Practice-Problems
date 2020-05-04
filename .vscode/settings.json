@@ -1,8 +1,8 @@
 {
     "python.testing.unittestArgs": [
-        "-v",
+        // "-v",
         "-s",
-        "./Easy",
+        "./tests/",
         "-p",
         "test_*.py"
     ],
