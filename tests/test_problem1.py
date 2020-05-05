@@ -14,6 +14,9 @@ class Test(unittest.TestCase):
     def test_divide(self):
         self.assertEqual(divide(10, 2), 5)
 
+    def test_exponent(self):
+        self.assertEqual(exponent(2, 4), 16)
+
 if __name__ == '__main__':
     unittest.main()
 

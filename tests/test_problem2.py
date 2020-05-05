@@ -24,6 +24,10 @@ class Test(unittest.TestCase):
 
     def test_getBooleans(self):
         self.assertEqual(getBooleans(array), [True, False])
+    
+    def test_getReversed(self):
+        self.assertEqual(getReversed(array), [False, '3', 5, True, 'Test', 1])
+
 
 if __name__ == '__main__':
     unittest.main()

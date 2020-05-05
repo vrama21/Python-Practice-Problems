@@ -13,3 +13,7 @@ def multiply(a, b):
 # Write a function that divides any two numbers together
 def divide(a, b):
     pass
+
+# Write a function that returns the value of a to the power of b
+def exponent(a, b):
+    pass 
