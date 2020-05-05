@@ -1,3 +1,5 @@
+# Functions corresponding to arithmetic and math calculations.
+
 # Write a function that adds any two numbers together
 def add(a, b):
     pass

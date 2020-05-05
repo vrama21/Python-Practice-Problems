@@ -1,5 +1,5 @@
 import unittest
-from Easy.Problem2.problem2 import *
+from Easy.Array.array import *
 
 array = [1, 'Test', True, 5, '3', False]
 

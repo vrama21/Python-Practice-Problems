@@ -1,3 +1,5 @@
+# Functions corresponding to array/list manipulations
+
 # Return the first element of the array
 def getFirstElement(array):
     pass
