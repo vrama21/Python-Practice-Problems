@@ -2,24 +2,29 @@
 
 # Convert the string to an integer
 def convertToInt(string):
-    pass
+    return int(string)
 
 # Return true if a string is empty, else return false
 def isStringEmpty(string):
-    pass
+    if string == "":
+        return True
+    else: 
+        return False
 
 # Concatenate two strings
 def concatenate(string1, string2):
-    pass
+    return string1 + string2
 
 # Return the length of a string
 def strLength(string):
-    pass
+    return len(string)
 
 # Separate a string by whitespaces into an array
 def separateString(string):
-    pass
+    return string.split()
 
-# Join an array by white spaces into a string
-def joinString(string):
-    pass
+# Join a list of strings into a single string by white spaces
+def joinString(listOfStrings):
+    return " ".join(listOfStrings)
+
+    
