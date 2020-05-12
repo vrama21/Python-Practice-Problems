@@ -1,33 +1,43 @@
 # Functions corresponding to array/list manipulations
 
 # Return the first element of the array
-def getFirstElement(array):
+def getFirstElement(_list):
     pass
 
-# Return the last element of the array
-def getLastElement(array):
+# Return the last element of the list
+def getLastElement(_list):
     pass
 
 # Return first 3 elements
-def getFirstThreeElements(array):
+def getFirstThreeElements(_list):
     pass
 
 # Return last 3 elements
-def getLastThreeElements(array):
+def getLastThreeElements(_list):
     pass
 
-# Return all integers in the array
-def getIntegers(array):
+# Return all integers in the list
+def getIntegers(_list):
     pass
 
-# Return all string in the array
-def getStrings(array):
+# Return all string in the list
+def getStrings(_list):
     pass
 
-# Return all booleans in the array
-def getBooleans(array):
+# Return all booleans in the list
+def getBooleans(_list):
     pass
 
-# Return the array reversed
-def getReversed(array):
+# Return the list reversed
+def getReversed(_list):
+    pass
+
+''' 
+Count the amount of times a string shows up in a list
+(e.g):
+list = ['A', 'A', 'C', 'D', 'E',
+        'E', 'A', 'B', 'B', 'A']
+Expected Result: countElementInArray(list, 'A') >>> 4 
+'''
+def countElementInArray(_list, element):
     pass
